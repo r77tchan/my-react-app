@@ -1,11 +1,12 @@
 import React from 'react';
-import Hello from './Hello';
+import CounterApp from './CounterApp';
+import TailwindExample from './TailwindExample';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello, World!</h1>
-      <Hello name="kawasaki" />
+      <CounterApp />
+      <TailwindExample />
     </div>
   );
 }
